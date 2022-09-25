@@ -1,92 +1,107 @@
-# ejercicio1Mern
+# Ejercicio 1 del Curso de MERN de OpenBootcamp
 
+## Dependencias instaladas
 
+### 1. Dependencias de producción
 
-## Getting started
+> Son dependencias instaladas tanto para el entorno de desarrollo como para el entorno de producción.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+* #### Express en su versión ^16.0.2:
+    > Es un framework para el entorno de ejecución NodeJS que ayuda a configurar un entorno de desarrollo y realizar tareas de desarrollo y publicación web.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+* #### Dotenv en su versión ^4.18.1:
+    > Es una librería para tener un archivo de configuración que contiene todas las variables de entorno que se crean.
 
-## Add your files
+### 2. Dependencias de desarrollo
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+> Son dependencias instaladas solamente para el entorno de desarrollo.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/eldey2017/ejercicio1mern.git
-git branch -M main
-git push -uf origin main
-```
+* #### @types/express en su versión ^4.17.14:
+    > Es un paquete para que TypeScript reconozca los tipos de Express.
 
-## Integrate with your tools
+* ### @types/jest en su versión ^29.0.3:
+    > Contiene las definiciones de Jest para TypeScript.
 
-- [ ] [Set up project integrations](https://gitlab.com/eldey2017/ejercicio1mern/-/settings/integrations)
+* ### @types/node en su versión ^18.7.20:
+    > Contiene las definiciones de node para TypeScript.
 
-## Collaborate with your team
+* ### @typescript-eslint/eslint-plugin en su versión ^5.38.0:
+    > Un plugin que proporciona reglas recomendadas para TypeScript.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+* ### concurrently en su versión ^7.4.0:
+    > Para ejecutar varios scripts en paralelo.
 
-## Test and Deploy
+* ### eslint en su versión ^8.24.0:
+    > Analiza el código de JavaScript para detectar problemas por medio de patrones y, si está a su alcance, resolverlos él mismo.
 
-Use the built-in continuous integration in GitLab.
+* ### eslint-config-standard-with-typescript en su versión ^23.0.0:
+    > Una extensión de configuración estandard de eslint para TypeScript.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+* ### eslint-plugin-import en su versión ^2.26.0:
+    > Plugin soporte de eslint para EcmaScript 6 con la sintaxis import / export.
 
-***
+* ### eslint-plugin-n en su versión ^15.3.0:
+    > Reglas de Eslint adicionales para NodeJS.
 
-# Editing this README
+* ### eslint-plugin-promise en su versión ^6.0.1:
+    > Refuerza mejores prácticas para promesas en JavaScript.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+* ### jest en su versión ^29.0.3:
+    > Librería para escribir y ejecutar tests para pruebas de código.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+* ### nodemon en su versión ^2.0.20:
+    > Es una utilidad para monitorizar los cambios en el código que se está desarrollando para reiniciar el servidor automáticamente.
 
-## Name
-Choose a self-explaining name for your project.
+* ### serve en su versión ^14.0.1:
+    > Servidor local para levantar el proyecto en una página web local.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+* ### supertest en su versión ^6.2.4:
+    > Librería de SuperAgent para testear servidores HTTP.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+* ### ts-jest en su versión ^29.0.2:
+    > Una extensión de Jest que permite utilizarlo para probar proyectos en realizados en TypeScript.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+* ### ts-node en su versión ^10.9.1:
+    > Motor de ejecución de TypeScript para transformarlo en JavaScript, permite ejecutar TypeScript en NodeJs sin precompilar.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+* ### typescript en su versión ^4.8.3:
+    > Lenguaje de progrmación que compila a JavaScript añadiendole tipado.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+* ### webpack en su versión ^5.74.0:
+    > Se encarga de empaquetar los módulos de la aplicación y genera un archivo único con ellos para producción.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+* ### webpack-cli en su versión ^4.10.0:
+    > Proporciona un conjunto de comandos para aumentar la velocidad al configurar un proyecto webpack personalizado.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+* ### webpack-node-externals en su versión ^3.0.0:
+    > Excluye la carpeta node_modules del paquete generado por webpack.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+* ### webpack-shell-plugin en su versión ^0.5.0:
+    > Permite lanzar comandos antes y después de los paquetes generados.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## Scripts de NPM creados:
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+> Scripts creados para facilitar el lnazamiento de instrucciones por consola en desarrollo y para producción.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+* ### "build": "npx tsc":
+    > Crea una carpeta (Configurada anteriormente en el archivo tsconfig.json) en la que compila TypeScript a JavaScript.
 
-## License
-For open source projects, say how it is licensed.
+* ### "start": "node dist/index.js":
+    > Ejecuta el archivo index.js.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+* ### "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"":
+    > Lanza a través de concurrently dos comandos, sirven para desarrollo:
+        1. npx tsc: de la que ya se ha hablado antes, crea una carpeta que compila TypeScript a JavaScript y la instruccion --watch en la que se queda escuchando cambios.
+        2. nodemon -q dist/index.js: que monitoriza los cambios de código y reinicia el servidor cuando estos se produzcan.
+
+* ### "test": "jest":
+    > Lanza la herramienta de pruebas, pasa los tests que se han realizado y muestra si se han pasado o no, crea una carpeta coverage donde recoge el tanto porciento de los aciertos o fallos.
+
+* ### "serve:coverage": "cd coverage/lcov-report && npx serve":
+    > Va a la carpeta coverage creada anteriormente, realiza un reporte de los datos de jest y los sirve en una página HTML en un puerto local.
+
+## Variables de entorno:
+
+Por el momento solo hay una:
+
+    PORT=8000
